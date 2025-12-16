@@ -16,5 +16,5 @@ fmt.Println("server running port:3000")
 
 
 func hello( w http.ResponseWriter , req *http.Request){
-	fmt.Fprintf(w , "wansing sadfsf");
+	fmt.Fprintf(w , "hello Wansing");
 }
